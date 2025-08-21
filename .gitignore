@@ -1,0 +1,47 @@
+# --- Général ---
+*.log
+*.tmp
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+
+# --- Terraform ---
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*.override.tf
+*.override.tf.json
+.terraform/
+.terraform.lock.hcl
+
+# --- Ansible ---
+*.retry
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+env/
+venv/
+
+# --- IDE ---
+.vscode/
+.idea/
+
+# --- Sécurité ---
+*.pem
+*.key
+*.crt
+*.pfx
+secrets.yml
+*.env
+
+# --- OS ---
+*.lnk
+desktop.ini
